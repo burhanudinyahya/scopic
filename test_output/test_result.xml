@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="my_app.tests.test_create_player.CreatePlayerTestCase-20220718041931" tests="3" file="my_app/tests/test_create_player.py" time="0.009" timestamp="2022-07-18T04:19:31" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_create_player.CreatePlayerTestCase" name="test_invalid_value_for_position" time="0.006" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_create_player.py" line="60"/>
+		<testcase classname="my_app.tests.test_create_player.CreatePlayerTestCase" name="test_invalid_value_for_skill" time="0.001" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_create_player.py" line="79"/>
+		<testcase classname="my_app.tests.test_create_player.CreatePlayerTestCase" name="test_save_valid_value" time="0.002" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_create_player.py" line="21"/>
+	</testsuite>
+	<testsuite name="my_app.tests.test_delete_player.DeletePlayerTestCase-20220718041931" tests="4" file="my_app/tests/test_delete_player.py" time="0.007" timestamp="2022-07-18T04:19:31" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_delete_player.DeletePlayerTestCase" name="test_delete_with_invalid_token" time="0.001" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_delete_player.py" line="28"/>
+		<testcase classname="my_app.tests.test_delete_player.DeletePlayerTestCase" name="test_delete_with_no_token" time="0.001" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_delete_player.py" line="24"/>
+		<testcase classname="my_app.tests.test_delete_player.DeletePlayerTestCase" name="test_delete_with_valid_token_and_when_player_exist" time="0.003" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_delete_player.py" line="34"/>
+		<testcase classname="my_app.tests.test_delete_player.DeletePlayerTestCase" name="test_delete_with_valid_token_and_when_player_not_exist" time="0.002" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_delete_player.py" line="57"/>
+	</testsuite>
+	<testsuite name="my_app.tests.test_list_player.ListPlayerTestCase-20220718041931" tests="1" file="my_app/tests/test_list_player.py" time="0.003" timestamp="2022-07-18T04:19:31" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_list_player.ListPlayerTestCase" name="test_list_player" time="0.003" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_list_player.py" line="21"/>
+	</testsuite>
+	<testsuite name="my_app.tests.test_process_team.ProcessTeamTestCase-20220718041931" tests="1" file="my_app/tests/test_process_team.py" time="0.005" timestamp="2022-07-18T04:19:31" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_process_team.ProcessTeamTestCase" name="test_process_team" time="0.005" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_process_team.py" line="21"/>
+	</testsuite>
+	<testsuite name="my_app.tests.test_update_player.UpdatePlayerTestCase-20220718041931" tests="2" file="my_app/tests/test_update_player.py" time="0.007" timestamp="2022-07-18T04:19:31" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_update_player.UpdatePlayerTestCase" name="test_update_player_found" time="0.004" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_update_player.py" line="21"/>
+		<testcase classname="my_app.tests.test_update_player.UpdatePlayerTestCase" name="test_update_player_not_found" time="0.003" timestamp="2022-07-18T04:19:31" file="my_app/tests/test_update_player.py" line="78"/>
+	</testsuite>
+</testsuites>
